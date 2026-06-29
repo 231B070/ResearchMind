@@ -3,7 +3,9 @@ from core.state import ResearchState
 from agents.search_agent import SearchAgent
 from agents.ranking_agent import RankingAgent
 from agents.download_agent import DownloadAgent
-
+from agents.pdf_reader import PDFReaderAgent
+from agents.paper_parser import PaperParserAgent
+from agents.claim_extractor import ClaimExtractorAgent
 
 def main():
 
@@ -66,9 +68,26 @@ def main():
     state = downloader.run(state)
 
     print("\n" + "=" * 80)
-    print("✅ Milestone 6 Completed Successfully")
+
     print("=" * 80)
 
+    reader = PDFReaderAgent()
+    state = reader.run(state)
+
+    parser = PaperParserAgent()
+    state = parser.run(state)
+
+    claim_extractor = ClaimExtractorAgent()
+    state = claim_extractor.run(state)
+
+    paper = state["ranked_papers"][0]
+
+    print("\nDetected Sections for First Paper")
+    print(paper.sections.keys())
+
+    if paper.claims:
+        print("\nFirst Extracted Claim")
+        print(paper.claims[0])
 
 if __name__ == "__main__":
     main()
