@@ -1,0 +1,17 @@
+langgraph
+langchain
+langchain-openai
+openai
+python-dotenv
+fastapi
+uvicorn
+pymupdf
+pandas
+numpy
+scikit-learn
+requests
+tqdm
+pydantic
+chromadb
+neo4j
+networkx
