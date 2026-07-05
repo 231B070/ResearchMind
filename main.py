@@ -1,5 +1,5 @@
 from core.state import ResearchState
-
+from agents.graph_builder import GraphBuilderAgent
 from agents.search_agent import SearchAgent
 from agents.ranking_agent import RankingAgent
 from agents.download_agent import DownloadAgent
@@ -80,6 +80,9 @@ def main():
     claim_extractor = ClaimExtractorAgent()
     state = claim_extractor.run(state)
 
+    graph_builder = GraphBuilderAgent()
+    state = graph_builder.run(state)
+    
     paper = state["ranked_papers"][0]
 
     print("\nDetected Sections for First Paper")
