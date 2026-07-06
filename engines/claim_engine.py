@@ -1,7 +1,7 @@
 """Rule-based scientific claim extraction from parsed research papers."""
 
 from __future__ import annotations
-
+from nlp.entity_extractor import EntityExtractor
 import logging
 import re
 from typing import Dict, List, Tuple
@@ -101,13 +101,63 @@ def extract_claims(paper: Paper) -> List[ResearchClaim]:
     logger.info("Extracting claims for paper: %s", paper.title)
 
     metric, results, improvement = _extract_metric_results(paper)
+    extractor = EntityExtractor()
 
+    method_entities = extractor.extract_methods(
+        _section_text(paper, "Methodology")
+        + "\n"
+        + _section_text(paper, "Abstract")
+    )
+
+    dataset_entities = extractor.extract_datasets(
+        paper.full_text
+    )
+
+    problem_entities = extractor.extract_problems(
+        paper.full_text
+    )
+
+    metric_entities = extractor.extract_metrics(
+        results
+    )
     claim = ResearchClaim(
-        problem=_extract_from_sections(paper, ("Introduction", "Abstract"), _PROBLEM_PATTERNS),
-        proposed_method=_extract_from_sections(paper, ("Abstract", "Methodology"), _METHOD_PATTERNS),
-        dataset=_extract_from_sections(paper, ("Dataset", "Experiments", "Methodology"), _DATASET_PATTERNS),
+        problem=(
+    ", ".join(problem_entities)
+    if problem_entities
+    else _extract_from_sections(
+        paper,
+        ("Introduction", "Abstract"),
+        _PROBLEM_PATTERNS,
+    )
+),
+
+    proposed_method=(
+        ", ".join(method_entities)
+        if method_entities
+        else _extract_from_sections(
+            paper,
+            ("Abstract", "Methodology"),
+            _METHOD_PATTERNS,
+        )
+    ),
+
+    dataset=(
+        ", ".join(dataset_entities)
+        if dataset_entities
+        else _extract_from_sections(
+            paper,
+            ("Dataset", "Experiments", "Methodology"),
+            _DATASET_PATTERNS,
+        )
+    ),
+
+    metric=(
+        ", ".join(metric_entities)
+        if metric_entities
+        else metric
+    ),
         baseline=_extract_from_sections(paper, ("Results", "Experiments", "Discussion"), _BASELINE_PATTERNS),
-        metric=metric,
+        
         results=results,
         improvement=improvement or _find_improvement(paper, metric),
         limitations=_extract_from_sections(paper, ("Limitations", "Discussion", "Introduction"), _LIMITATION_PATTERNS),

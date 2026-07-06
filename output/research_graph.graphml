@@ -35,19 +35,19 @@
       <data key="d1">Chetan Arora</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Problem:1.3 Limitations of Current OCR Techniques To understand OCR advancements, it is important to note that traditional OCR models broadly fall into two categories: characterlevel [10] and word-level [3, 12, 25].">
+    <node id="Problem:Scene Text Recognition, Document OCR, Document Understanding">
       <data key="d0">Problem</data>
-      <data key="d1">1.3 Limitations of Current OCR Techniques To understand OCR advancements, it is important to note that traditional OCR models broadly fall into two categories: characterlevel [10] and word-level [3, 12, 25].</data>
+      <data key="d1">Scene Text Recognition, Document OCR, Document Understanding</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Method:Hence, in this paper, we propose a natural and logical progression from word level OCR to line-level OCR.">
+    <node id="Method:LSTM, Attention, OCR, Line-Level OCR, Language Model">
       <data key="d0">Method</data>
-      <data key="d1">Hence, in this paper, we propose a natural and logical progression from word level OCR to line-level OCR.</data>
+      <data key="d1">LSTM, Attention, OCR, Line-Level OCR, Language Model</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Dataset:To facilitate research and benchmarking end-to-end optical character recognition (OCR) at the page-level, we introduce a new annotated dataset encompassing distinct linguistic, quality and layout challenges.">
+    <node id="Dataset:ICDAR, SynthText, MJSynth, NEU">
       <data key="d0">Dataset</data>
-      <data key="d1">To facilitate research and benchmarking end-to-end optical character recognition (OCR) at the page-level, we introduce a new annotated dataset encompassing distinct linguistic, quality and layout challenges.</data>
+      <data key="d1">ICDAR, SynthText, MJSynth, NEU</data>
       <data key="d2">{}</data>
     </node>
     <node id="Metric:Accuracy">
@@ -125,19 +125,24 @@
       <data key="d1">Jean-Michel Morel</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Problem:The following reasoning motivates this procedure.">
+    <node id="Problem:Document OCR, Post-OCR Correction, Information Extraction">
       <data key="d0">Problem</data>
-      <data key="d1">The following reasoning motivates this procedure.</data>
+      <data key="d1">Document OCR, Post-OCR Correction, Information Extraction</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Method:We propose an unsupervised method by leveraging the redundancy of character shapes within a document to correct imperfect outputs of a given OCR system and suggest better clustering.">
+    <node id="Method:OCR">
       <data key="d0">Method</data>
-      <data key="d1">We propose an unsupervised method by leveraging the redundancy of character shapes within a document to correct imperfect outputs of a given OCR system and suggest better clustering.</data>
+      <data key="d1">OCR</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Dataset:An image (here, of a text line) is a vector u ∈[0, 1]V (with values 0 for blacks and 1 for whites); the mask computed above defines a subset Ω⊂V of vertices.">
+    <node id="Dataset:ICDAR, NEU">
       <data key="d0">Dataset</data>
-      <data key="d1">An image (here, of a text line) is a vector u ∈[0, 1]V (with values 0 for blacks and 1 for whites); the mask computed above defines a subset Ω⊂V of vertices.</data>
+      <data key="d1">ICDAR, NEU</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Metric:Accuracy, CER">
+      <data key="d0">Metric</data>
+      <data key="d1">Accuracy, CER</data>
       <data key="d2">{}</data>
     </node>
     <node id="FutureWork:We shall, therefore, perform our experiments on datasets that satisfy the following criteria: – Domain-wise, the dataset should consist of images of printed (or typewritten) text, which are partitioned into sub-collections of pictures from the same or similar printing sources. – Granularity-wise, the data and their annotation should allow for a straightforward evaluation process.">
@@ -165,14 +170,14 @@
       <data key="d1">On the other hand, this also motivates additional investigation into remeRep.</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Method:In this work, we study the performance, extensibility, and interaction of two such adaptations: vocabulary augmentation and script transliteration.">
+    <node id="Method:Transformer, Attention, Language Model, BERT, RoBERTa, mBERT">
       <data key="d0">Method</data>
-      <data key="d1">In this work, we study the performance, extensibility, and interaction of two such adaptations: vocabulary augmentation and script transliteration.</data>
+      <data key="d1">Transformer, Attention, Language Model, BERT, RoBERTa, mBERT</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Dataset:All vocabulary values are computed on the respective training sets. a linguistically-motivated transliteration scheme9 aimed at associating Uyghur with Turkish.">
+    <node id="Dataset:IAM, NEU">
       <data key="d0">Dataset</data>
-      <data key="d1">All vocabulary values are computed on the respective training sets. a linguistically-motivated transliteration scheme9 aimed at associating Uyghur with Turkish.</data>
+      <data key="d1">IAM, NEU</data>
       <data key="d2">{}</data>
     </node>
     <node id="Improvement:outperforms baseline">
@@ -200,24 +205,14 @@
       <data key="d1">Bidyut Baran Chaudhuri</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Problem:These facts motivated us to develop an indigenous Bengali (with English) OCR system, whose initial system and its performance are reported here.">
+    <node id="Problem:Multilingual OCR, Printed OCR">
       <data key="d0">Problem</data>
-      <data key="d1">These facts motivated us to develop an indigenous Bengali (with English) OCR system, whose initial system and its performance are reported here.</data>
+      <data key="d1">Multilingual OCR, Printed OCR</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Method:This paper presents a printed Bengali and English text OCR system developed by us using a single hidden BLSTM-CTC architecture having 128 units.">
+    <node id="Method:CNN, LSTM, BLSTM, OCR">
       <data key="d0">Method</data>
-      <data key="d1">This paper presents a printed Bengali and English text OCR system developed by us using a single hidden BLSTM-CTC architecture having 128 units.</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Dataset:Our network model is learned with 47, 720 text line images (which includes 4, 500 lines containing English).">
-      <data key="d0">Dataset</data>
-      <data key="d1">Our network model is learned with 47, 720 text line images (which includes 4, 500 lines containing English).</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Metric:Character-level Accuracy">
-      <data key="d0">Metric</data>
-      <data key="d1">Character-level Accuracy</data>
+      <data key="d1">CNN, LSTM, BLSTM, OCR</data>
       <data key="d2">{}</data>
     </node>
     <node id="FutureWork:Our future work is to use multi-layer (deep) architecture trained with bigger database and to make the system more versatile with respect to document quality.">
@@ -250,19 +245,19 @@
       <data key="d1">Pawan Goyal</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Problem:Upcycling such a pre-trained model brings its own challenges.">
+    <node id="Problem:Multilingual OCR">
       <data key="d0">Problem</data>
-      <data key="d1">Upcycling such a pre-trained model brings its own challenges.</data>
+      <data key="d1">Multilingual OCR</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Method:We propose a post-OCR text correction approach for digitising texts in Romanised Sanskrit.">
+    <node id="Method:RNN, LSTM, BLSTM, OCR, Post-OCR Text Correction">
       <data key="d0">Method</data>
-      <data key="d1">We propose a post-OCR text correction approach for digitising texts in Romanised Sanskrit.</data>
+      <data key="d1">RNN, LSTM, BLSTM, OCR, Post-OCR Text Correction</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Dataset:NormLP is calculated by obtaining the likelihood of a predicted sentence as per the model, and then normalising it by the likelihood of the string as per a unigram language model trained on a corpus with gold standard sentences.">
+    <node id="Dataset:ICDAR, IAM, NEU">
       <data key="d0">Dataset</data>
-      <data key="d1">NormLP is calculated by obtaining the likelihood of a predicted sentence as per the model, and then normalising it by the likelihood of the string as per a unigram language model trained on a corpus with gold standard sentences.</data>
+      <data key="d1">ICDAR, IAM, NEU</data>
       <data key="d2">{}</data>
     </node>
     <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Shashank Vempati" id="0">
@@ -280,13 +275,13 @@
     <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Chetan Arora" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Problem:1.3 Limitations of Current OCR Techniques To understand OCR advancements, it is important to note that traditional OCR models broadly fall into two categories: characterlevel [10] and word-level [3, 12, 25]." id="0">
+    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Problem:Scene Text Recognition, Document OCR, Document Understanding" id="0">
       <data key="d3">HAS_PROBLEM</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Method:Hence, in this paper, we propose a natural and logical progression from word level OCR to line-level OCR." id="0">
+    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Method:LSTM, Attention, OCR, Line-Level OCR, Language Model" id="0">
       <data key="d3">PROPOSES</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Dataset:To facilitate research and benchmarking end-to-end optical character recognition (OCR) at the page-level, we introduce a new annotated dataset encompassing distinct linguistic, quality and layout challenges." id="0">
+    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Dataset:ICDAR, SynthText, MJSynth, NEU" id="0">
       <data key="d3">EVALUATED_ON</data>
     </edge>
     <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Metric:Accuracy" id="0">
@@ -331,16 +326,16 @@
     <edge source="Improving OCR using internal document redundancy" target="Jean-Michel Morel" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Problem:The following reasoning motivates this procedure." id="0">
+    <edge source="Improving OCR using internal document redundancy" target="Problem:Document OCR, Post-OCR Correction, Information Extraction" id="0">
       <data key="d3">HAS_PROBLEM</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Method:We propose an unsupervised method by leveraging the redundancy of character shapes within a document to correct imperfect outputs of a given OCR system and suggest better clustering." id="0">
+    <edge source="Improving OCR using internal document redundancy" target="Method:OCR" id="0">
       <data key="d3">PROPOSES</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Dataset:An image (here, of a text line) is a vector u ∈[0, 1]V (with values 0 for blacks and 1 for whites); the mask computed above defines a subset Ω⊂V of vertices." id="0">
+    <edge source="Improving OCR using internal document redundancy" target="Dataset:ICDAR, NEU" id="0">
       <data key="d3">EVALUATED_ON</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Metric:Accuracy" id="0">
+    <edge source="Improving OCR using internal document redundancy" target="Metric:Accuracy, CER" id="0">
       <data key="d3">REPORTS</data>
     </edge>
     <edge source="Improving OCR using internal document redundancy" target="FutureWork:We shall, therefore, perform our experiments on datasets that satisfy the following criteria: – Domain-wise, the dataset should consist of images of printed (or typewritten) text, which are partitioned into sub-collections of pictures from the same or similar printing sources. – Granularity-wise, the data and their annotation should allow for a straightforward evaluation process." id="0">
@@ -355,10 +350,10 @@
     <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Problem:On the other hand, this also motivates additional investigation into remeRep." id="0">
       <data key="d3">HAS_PROBLEM</data>
     </edge>
-    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Method:In this work, we study the performance, extensibility, and interaction of two such adaptations: vocabulary augmentation and script transliteration." id="0">
+    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Method:Transformer, Attention, Language Model, BERT, RoBERTa, mBERT" id="0">
       <data key="d3">PROPOSES</data>
     </edge>
-    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Dataset:All vocabulary values are computed on the respective training sets. a linguistically-motivated transliteration scheme9 aimed at associating Uyghur with Turkish." id="0">
+    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Dataset:IAM, NEU" id="0">
       <data key="d3">EVALUATED_ON</data>
     </edge>
     <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Improvement:outperforms baseline" id="0">
@@ -373,16 +368,16 @@
     <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Bidyut Baran Chaudhuri" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Problem:These facts motivated us to develop an indigenous Bengali (with English) OCR system, whose initial system and its performance are reported here." id="0">
+    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Problem:Multilingual OCR, Printed OCR" id="0">
       <data key="d3">HAS_PROBLEM</data>
     </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Method:This paper presents a printed Bengali and English text OCR system developed by us using a single hidden BLSTM-CTC architecture having 128 units." id="0">
+    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Method:CNN, LSTM, BLSTM, OCR" id="0">
       <data key="d3">PROPOSES</data>
     </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Dataset:Our network model is learned with 47, 720 text line images (which includes 4, 500 lines containing English)." id="0">
+    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Dataset:ICDAR, NEU" id="0">
       <data key="d3">EVALUATED_ON</data>
     </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Metric:Character-level Accuracy" id="0">
+    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Metric:Accuracy" id="0">
       <data key="d3">REPORTS</data>
     </edge>
     <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Improvement:outperforms baseline" id="0">
@@ -403,13 +398,13 @@
     <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Pawan Goyal" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Problem:Upcycling such a pre-trained model brings its own challenges." id="0">
+    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Problem:Multilingual OCR" id="0">
       <data key="d3">HAS_PROBLEM</data>
     </edge>
-    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Method:We propose a post-OCR text correction approach for digitising texts in Romanised Sanskrit." id="0">
+    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Method:RNN, LSTM, BLSTM, OCR, Post-OCR Text Correction" id="0">
       <data key="d3">PROPOSES</data>
     </edge>
-    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Dataset:NormLP is calculated by obtaining the likelihood of a predicted sentence as per the model, and then normalising it by the likelihood of the string as per a unigram language model trained on a corpus with gold standard sentences." id="0">
+    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Dataset:ICDAR, IAM, NEU" id="0">
       <data key="d3">EVALUATED_ON</data>
     </edge>
   </graph>
