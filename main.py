@@ -6,6 +6,9 @@ from agents.download_agent import DownloadAgent
 from agents.pdf_reader import PDFReaderAgent
 from agents.paper_parser import PaperParserAgent
 from agents.claim_extractor import ClaimExtractorAgent
+from agents.embedding_agent import EmbeddingAgent
+from agents.similarity_agent import SimilarityAgent
+from agents.gap_agent import GapAgent
 
 def main():
 
@@ -82,7 +85,18 @@ def main():
 
     graph_builder = GraphBuilderAgent()
     state = graph_builder.run(state)
+
+    embedding_agent = EmbeddingAgent()
+    state = embedding_agent.run(state)
+
+    similarity_agent = SimilarityAgent()
+    state = similarity_agent.run(state)
+
+    gap_agent = GapAgent()
+    state = gap_agent.run(state)
     
+    print("\n" + "=" * 80)
+
     paper = state["ranked_papers"][0]
 
     print("\nDetected Sections for First Paper")
