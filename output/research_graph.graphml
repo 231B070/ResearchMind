@@ -5,174 +5,39 @@
   <key id="d1" for="node" attr.name="label" attr.type="string" />
   <key id="d0" for="node" attr.name="type" attr.type="string" />
   <graph edgedefault="directed">
-    <node id="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR">
+    <node id="How reproducible are data-driven subtypes of Alzheimer's disease atrophy?">
       <data key="d0">Paper</data>
-      <data key="d1">Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR</data>
-      <data key="d2">{"year": "2025-08-29T15:02:11Z", "source": "arXiv"}</data>
+      <data key="d1">How reproducible are data-driven subtypes of Alzheimer's disease atrophy?</data>
+      <data key="d2">{"year": "2024-11-29T11:42:13Z", "source": "arXiv"}</data>
     </node>
-    <node id="Shashank Vempati">
+    <node id="Emma Prevot">
       <data key="d0">Author</data>
-      <data key="d1">Shashank Vempati</data>
+      <data key="d1">Emma Prevot</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Nishit Anand">
+    <node id="Cameron Shand">
       <data key="d0">Author</data>
-      <data key="d1">Nishit Anand</data>
+      <data key="d1">Cameron Shand</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Gaurav Talebailkar">
+    <node id="Neil Oxtoby">
       <data key="d0">Author</data>
-      <data key="d1">Gaurav Talebailkar</data>
+      <data key="d1">Neil Oxtoby</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Arpan Garai">
+    <node id="for Alzheimer's Disease Neuroimaging Initiative">
       <data key="d0">Author</data>
-      <data key="d1">Arpan Garai</data>
+      <data key="d1">for Alzheimer's Disease Neuroimaging Initiative</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Chetan Arora">
-      <data key="d0">Author</data>
-      <data key="d1">Chetan Arora</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Problem:Scene Text Recognition, Document OCR, Document Understanding">
+    <node id="Problem:Finally, we believe the exclusive focus on testing the algorithm on less-structured datasets, rather than training on such datasets, may not fully address the challenges of adapting to “lower-quality” data as it does not consider the algorithm’s ability to capture the intricacies and variations present in these datasets.">
       <data key="d0">Problem</data>
-      <data key="d1">Scene Text Recognition, Document OCR, Document Understanding</data>
+      <data key="d1">Finally, we believe the exclusive focus on testing the algorithm on less-structured datasets, rather than training on such datasets, may not fully address the challenges of adapting to “lower-quality” data as it does not consider the algorithm’s ability to capture the intricacies and variations present in these datasets.</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Method:LSTM, Attention, OCR, Line-Level OCR, Language Model">
+    <node id="Method:ViT, EAST">
       <data key="d0">Method</data>
-      <data key="d1">LSTM, Attention, OCR, Line-Level OCR, Language Model</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Dataset:ICDAR, SynthText, MJSynth, NEU">
-      <data key="d0">Dataset</data>
-      <data key="d1">ICDAR, SynthText, MJSynth, NEU</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Metric:Accuracy">
-      <data key="d0">Metric</data>
-      <data key="d1">Accuracy</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="FutureWork:8 FUTURE WORK Transitioning to line-level OCR not only streamlines document analysis by eliminating word detection but also creates a powerful synergy with language models.">
-      <data key="d0">FutureWork</data>
-      <data key="d1">8 FUTURE WORK Transitioning to line-level OCR not only streamlines document analysis by eliminating word detection but also creates a powerful synergy with language models.</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Improving OCR using internal document redundancy">
-      <data key="d0">Paper</data>
-      <data key="d1">Improving OCR using internal document redundancy</data>
-      <data key="d2">{"year": "2025-08-20T09:21:43Z", "source": "arXiv"}</data>
-    </node>
-    <node id="Diego Belzarena">
-      <data key="d0">Author</data>
-      <data key="d1">Diego Belzarena</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Seginus Mowlavi">
-      <data key="d0">Author</data>
-      <data key="d1">Seginus Mowlavi</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Aitor Artola">
-      <data key="d0">Author</data>
-      <data key="d1">Aitor Artola</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Camilo Mariño">
-      <data key="d0">Author</data>
-      <data key="d1">Camilo Mariño</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Marina Gardella">
-      <data key="d0">Author</data>
-      <data key="d1">Marina Gardella</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Ignacio Ramírez">
-      <data key="d0">Author</data>
-      <data key="d1">Ignacio Ramírez</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Antoine Tadros">
-      <data key="d0">Author</data>
-      <data key="d1">Antoine Tadros</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Roy He">
-      <data key="d0">Author</data>
-      <data key="d1">Roy He</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Natalia Bottaioli">
-      <data key="d0">Author</data>
-      <data key="d1">Natalia Bottaioli</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Boshra Rajaei">
-      <data key="d0">Author</data>
-      <data key="d1">Boshra Rajaei</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Gregory Randall">
-      <data key="d0">Author</data>
-      <data key="d1">Gregory Randall</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Jean-Michel Morel">
-      <data key="d0">Author</data>
-      <data key="d1">Jean-Michel Morel</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Problem:Document OCR, Post-OCR Correction, Information Extraction">
-      <data key="d0">Problem</data>
-      <data key="d1">Document OCR, Post-OCR Correction, Information Extraction</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Method:OCR">
-      <data key="d0">Method</data>
-      <data key="d1">OCR</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Dataset:ICDAR, NEU">
-      <data key="d0">Dataset</data>
-      <data key="d1">ICDAR, NEU</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Metric:Accuracy, CER">
-      <data key="d0">Metric</data>
-      <data key="d1">Accuracy, CER</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="FutureWork:We shall, therefore, perform our experiments on datasets that satisfy the following criteria: – Domain-wise, the dataset should consist of images of printed (or typewritten) text, which are partitioned into sub-collections of pictures from the same or similar printing sources. – Granularity-wise, the data and their annotation should allow for a straightforward evaluation process.">
-      <data key="d0">FutureWork</data>
-      <data key="d1">We shall, therefore, perform our experiments on datasets that satisfy the following criteria: – Domain-wise, the dataset should consist of images of printed (or typewritten) text, which are partitioned into sub-collections of pictures from the same or similar printing sources. – Granularity-wise, the data and their annotation should allow for a straightforward evaluation process.</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Specializing Multilingual Language Models: An Empirical Study">
-      <data key="d0">Paper</data>
-      <data key="d1">Specializing Multilingual Language Models: An Empirical Study</data>
-      <data key="d2">{"year": "2021-06-16T18:13:55Z", "source": "arXiv"}</data>
-    </node>
-    <node id="Ethan C. Chau">
-      <data key="d0">Author</data>
-      <data key="d1">Ethan C. Chau</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Noah A. Smith">
-      <data key="d0">Author</data>
-      <data key="d1">Noah A. Smith</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Problem:On the other hand, this also motivates additional investigation into remeRep.">
-      <data key="d0">Problem</data>
-      <data key="d1">On the other hand, this also motivates additional investigation into remeRep.</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Method:Transformer, Attention, Language Model, BERT, RoBERTa, mBERT">
-      <data key="d0">Method</data>
-      <data key="d1">Transformer, Attention, Language Model, BERT, RoBERTa, mBERT</data>
+      <data key="d1">ViT, EAST</data>
       <data key="d2">{}</data>
     </node>
     <node id="Dataset:IAM, NEU">
@@ -180,232 +45,320 @@
       <data key="d1">IAM, NEU</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Improvement:outperforms baseline">
-      <data key="d0">Improvement</data>
-      <data key="d1">outperforms baseline</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="FutureWork:The resulting ρ-values – 0.29 for NER, 0.56 for POS tagging, and 0.81 for UD parsing – suggest that this set of factors is meaningful for some tasks, though additional and more ﬁne-grained analysis in future work should give a more complete explanation.">
+    <node id="FutureWork:Our basic definition (CDR=0) could be augmented in future work with biomarker data on beta-amyloid and/or phosphorylated-tau negativity [9, 35, 54], and genetic risk factors like the APOE4 allele.">
       <data key="d0">FutureWork</data>
-      <data key="d1">The resulting ρ-values – 0.29 for NER, 0.56 for POS tagging, and 0.81 for UD parsing – suggest that this set of factors is meaningful for some tasks, though additional and more ﬁne-grained analysis in future work should give a more complete explanation.</data>
+      <data key="d1">Our basic definition (CDR=0) could be augmented in future work with biomarker data on beta-amyloid and/or phosphorylated-tau negativity [9, 35, 54], and genetic risk factors like the APOE4 allele.</data>
       <data key="d2">{}</data>
     </node>
-    <node id="A BLSTM Network for Printed Bengali OCR System with High Accuracy">
+    <node id="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease">
       <data key="d0">Paper</data>
-      <data key="d1">A BLSTM Network for Printed Bengali OCR System with High Accuracy</data>
-      <data key="d2">{"year": "2019-08-23T05:45:27Z", "source": "arXiv"}</data>
+      <data key="d1">Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease</data>
+      <data key="d2">{"year": "2024-02-19T15:07:56Z", "source": "arXiv"}</data>
     </node>
-    <node id="Debabrata Paul">
+    <node id="Hiroyuki Sato">
       <data key="d0">Author</data>
-      <data key="d1">Debabrata Paul</data>
+      <data key="d1">Hiroyuki Sato</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Bidyut Baran Chaudhuri">
+    <node id="Keisuke Suzuki">
       <data key="d0">Author</data>
-      <data key="d1">Bidyut Baran Chaudhuri</data>
+      <data key="d1">Keisuke Suzuki</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Problem:Multilingual OCR, Printed OCR">
+    <node id="Atsushi Hashizume">
+      <data key="d0">Author</data>
+      <data key="d1">Atsushi Hashizume</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Ryoichi Hanazawa">
+      <data key="d0">Author</data>
+      <data key="d1">Ryoichi Hanazawa</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Masanao Sasaki">
+      <data key="d0">Author</data>
+      <data key="d1">Masanao Sasaki</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Akihiro Hirakawa">
+      <data key="d0">Author</data>
+      <data key="d1">Akihiro Hirakawa</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="the Japanese Alzheimer's Disease Neuroimaging Initiative">
+      <data key="d0">Author</data>
+      <data key="d1">the Japanese Alzheimer's Disease Neuroimaging Initiative</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="the Alzheimer's Disease Neuroimaging Initiative">
+      <data key="d0">Author</data>
+      <data key="d1">the Alzheimer's Disease Neuroimaging Initiative</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Problem:However, the practicality of conducting periodic, long-term follow-ups for cognitively healthy individuals over 20–30 years is a significant challenge, leading to the need for developing a prediction methodology or framework for assessing cognitive decline based on short-term follow-up data on cognitive function.">
       <data key="d0">Problem</data>
-      <data key="d1">Multilingual OCR, Printed OCR</data>
+      <data key="d1">However, the practicality of conducting periodic, long-term follow-ups for cognitively healthy individuals over 20–30 years is a significant challenge, leading to the need for developing a prediction methodology or framework for assessing cognitive decline based on short-term follow-up data on cognitive function.</data>
       <data key="d2">{}</data>
     </node>
-    <node id="Method:CNN, LSTM, BLSTM, OCR">
+    <node id="Method:We propose that the predictionclassification-superposition of cognitive decline would contribute to the early detection of cognitive decline and the evaluation of therapeutic interventions for AD.">
       <data key="d0">Method</data>
-      <data key="d1">CNN, LSTM, BLSTM, OCR</data>
+      <data key="d1">We propose that the predictionclassification-superposition of cognitive decline would contribute to the early detection of cognitive decline and the evaluation of therapeutic interventions for AD.</data>
       <data key="d2">{}</data>
     </node>
-    <node id="FutureWork:Our future work is to use multi-layer (deep) architecture trained with bigger database and to make the system more versatile with respect to document quality.">
-      <data key="d0">FutureWork</data>
-      <data key="d1">Our future work is to use multi-layer (deep) architecture trained with bigger database and to make the system more versatile with respect to document quality.</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit">
-      <data key="d0">Paper</data>
-      <data key="d1">Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit</data>
-      <data key="d2">{"year": "2018-09-06T18:02:55Z", "source": "arXiv"}</data>
-    </node>
-    <node id="Amrith Krishna">
-      <data key="d0">Author</data>
-      <data key="d1">Amrith Krishna</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Bodhisattwa Prasad Majumder">
-      <data key="d0">Author</data>
-      <data key="d1">Bodhisattwa Prasad Majumder</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Rajesh Shreedhar Bhat">
-      <data key="d0">Author</data>
-      <data key="d1">Rajesh Shreedhar Bhat</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Pawan Goyal">
-      <data key="d0">Author</data>
-      <data key="d1">Pawan Goyal</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Problem:Multilingual OCR">
-      <data key="d0">Problem</data>
-      <data key="d1">Multilingual OCR</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Method:RNN, LSTM, BLSTM, OCR, Post-OCR Text Correction">
-      <data key="d0">Method</data>
-      <data key="d1">RNN, LSTM, BLSTM, OCR, Post-OCR Text Correction</data>
-      <data key="d2">{}</data>
-    </node>
-    <node id="Dataset:ICDAR, IAM, NEU">
+    <node id="Dataset:NEU">
       <data key="d0">Dataset</data>
-      <data key="d1">ICDAR, IAM, NEU</data>
+      <data key="d1">NEU</data>
       <data key="d2">{}</data>
     </node>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Shashank Vempati" id="0">
+    <node id="Metric:Accuracy">
+      <data key="d0">Metric</data>
+      <data key="d1">Accuracy</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Bayesian inference and role of astrocytes in amyloid-beta dynamics with modelling of Alzheimer's disease using clinical data">
+      <data key="d0">Paper</data>
+      <data key="d1">Bayesian inference and role of astrocytes in amyloid-beta dynamics with modelling of Alzheimer's disease using clinical data</data>
+      <data key="d2">{"year": "2023-06-21T19:11:08Z", "source": "arXiv"}</data>
+    </node>
+    <node id="Hina Shaheen">
+      <data key="d0">Author</data>
+      <data key="d1">Hina Shaheen</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Roderick Melnik">
+      <data key="d0">Author</data>
+      <data key="d1">Roderick Melnik</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="The Alzheimer's Disease Neuroimaging Initiative">
+      <data key="d0">Author</data>
+      <data key="d1">The Alzheimer's Disease Neuroimaging Initiative</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Problem:Therefore, in the present study, the inverse problem can be reformulated as a problem of Bayesian inference.">
+      <data key="d0">Problem</data>
+      <data key="d1">Therefore, in the present study, the inverse problem can be reformulated as a problem of Bayesian inference.</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Method:ViT, Attention">
+      <data key="d0">Method</data>
+      <data key="d1">ViT, Attention</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="FutureWork:In this section, we will present the results obtained from the developed stochastic models presented in Section 2.2.">
+      <data key="d0">FutureWork</data>
+      <data key="d1">In this section, we will present the results obtained from the developed stochastic models presented in Section 2.2.</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network">
+      <data key="d0">Paper</data>
+      <data key="d1">Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network</data>
+      <data key="d2">{"year": "2019-02-26T13:01:44Z", "source": "arXiv"}</data>
+    </node>
+    <node id="Yechong Huang">
+      <data key="d0">Author</data>
+      <data key="d1">Yechong Huang</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Jiahang Xu">
+      <data key="d0">Author</data>
+      <data key="d1">Jiahang Xu</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Yuncheng Zhou">
+      <data key="d0">Author</data>
+      <data key="d1">Yuncheng Zhou</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Tong Tong">
+      <data key="d0">Author</data>
+      <data key="d1">Tong Tong</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Xiahai Zhuang">
+      <data key="d0">Author</data>
+      <data key="d1">Xiahai Zhuang</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Problem:In addition, due to the limitation of GPU RAM and computation ability in VGG network, we cropped the region of interest to represent the whole image, which is centered in the center point of hippocampi and dilate from it.">
+      <data key="d0">Problem</data>
+      <data key="d1">In addition, due to the limitation of GPU RAM and computation ability in VGG network, we cropped the region of interest to represent the whole image, which is centered in the center point of hippocampi and dilate from it.</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Method:CNN">
+      <data key="d0">Method</data>
+      <data key="d1">CNN</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="FutureWork:Regarding to the future work, first we only used two modalities, i.e., T1-MRI and FDG-PET, as input in this work.">
+      <data key="d0">FutureWork</data>
+      <data key="d1">Regarding to the future work, first we only used two modalities, i.e., T1-MRI and FDG-PET, as input in this work.</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="High-dimensional regression over disease subgroups">
+      <data key="d0">Paper</data>
+      <data key="d1">High-dimensional regression over disease subgroups</data>
+      <data key="d2">{"year": "2016-11-03T10:58:20Z", "source": "arXiv"}</data>
+    </node>
+    <node id="Frank Dondelinger">
+      <data key="d0">Author</data>
+      <data key="d1">Frank Dondelinger</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Sach Mukherjee">
+      <data key="d0">Author</data>
+      <data key="d1">Sach Mukherjee</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Problem:Our work is motivated by biomedical problems, where disease subtypes, for example, may diﬀer with respect to underlying regression models, but sample sizes at the subgroup-level may be limited.">
+      <data key="d0">Problem</data>
+      <data key="d1">Our work is motivated by biomedical problems, where disease subtypes, for example, may diﬀer with respect to underlying regression models, but sample sizes at the subgroup-level may be limited.</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="Method:EAST">
+      <data key="d0">Method</data>
+      <data key="d1">EAST</data>
+      <data key="d2">{}</data>
+    </node>
+    <node id="FutureWork:Instead, we will describe an optimization procedure based on a proximal gradient approximation derived in Chen et al. [2010].">
+      <data key="d0">FutureWork</data>
+      <data key="d1">Instead, we will describe an optimization procedure based on a proximal gradient approximation derived in Chen et al. [2010].</data>
+      <data key="d2">{}</data>
+    </node>
+    <edge source="How reproducible are data-driven subtypes of Alzheimer's disease atrophy?" target="Emma Prevot" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Nishit Anand" id="0">
+    <edge source="How reproducible are data-driven subtypes of Alzheimer's disease atrophy?" target="Cameron Shand" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Gaurav Talebailkar" id="0">
+    <edge source="How reproducible are data-driven subtypes of Alzheimer's disease atrophy?" target="Neil Oxtoby" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Arpan Garai" id="0">
+    <edge source="How reproducible are data-driven subtypes of Alzheimer's disease atrophy?" target="for Alzheimer's Disease Neuroimaging Initiative" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Chetan Arora" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Problem:Scene Text Recognition, Document OCR, Document Understanding" id="0">
+    <edge source="How reproducible are data-driven subtypes of Alzheimer's disease atrophy?" target="Problem:Finally, we believe the exclusive focus on testing the algorithm on less-structured datasets, rather than training on such datasets, may not fully address the challenges of adapting to “lower-quality” data as it does not consider the algorithm’s ability to capture the intricacies and variations present in these datasets." id="0">
       <data key="d3">HAS_PROBLEM</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Method:LSTM, Attention, OCR, Line-Level OCR, Language Model" id="0">
+    <edge source="How reproducible are data-driven subtypes of Alzheimer's disease atrophy?" target="Method:ViT, EAST" id="0">
       <data key="d3">PROPOSES</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Dataset:ICDAR, SynthText, MJSynth, NEU" id="0">
+    <edge source="How reproducible are data-driven subtypes of Alzheimer's disease atrophy?" target="Dataset:IAM, NEU" id="0">
       <data key="d3">EVALUATED_ON</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="Metric:Accuracy" id="0">
+    <edge source="How reproducible are data-driven subtypes of Alzheimer's disease atrophy?" target="FutureWork:Our basic definition (CDR=0) could be augmented in future work with biomarker data on beta-amyloid and/or phosphorylated-tau negativity [9, 35, 54], and genetic risk factors like the APOE4 allele." id="0">
+      <data key="d3">FUTURE_WORK</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="Hiroyuki Sato" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="Keisuke Suzuki" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="Atsushi Hashizume" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="Ryoichi Hanazawa" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="Masanao Sasaki" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="Akihiro Hirakawa" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="the Japanese Alzheimer's Disease Neuroimaging Initiative" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="the Alzheimer's Disease Neuroimaging Initiative" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="Problem:However, the practicality of conducting periodic, long-term follow-ups for cognitively healthy individuals over 20–30 years is a significant challenge, leading to the need for developing a prediction methodology or framework for assessing cognitive decline based on short-term follow-up data on cognitive function." id="0">
+      <data key="d3">HAS_PROBLEM</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="Method:We propose that the predictionclassification-superposition of cognitive decline would contribute to the early detection of cognitive decline and the evaluation of therapeutic interventions for AD." id="0">
+      <data key="d3">PROPOSES</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="Dataset:NEU" id="0">
+      <data key="d3">EVALUATED_ON</data>
+    </edge>
+    <edge source="Self-organized clustering, prediction, and superposition of long-term cognitive decline from short-term individual cognitive test scores in Alzheimer's disease" target="Metric:Accuracy" id="0">
       <data key="d3">REPORTS</data>
     </edge>
-    <edge source="Why Stop at Words? Unveiling the Bigger Picture through Line-Level OCR" target="FutureWork:8 FUTURE WORK Transitioning to line-level OCR not only streamlines document analysis by eliminating word detection but also creates a powerful synergy with language models." id="0">
-      <data key="d3">FUTURE_WORK</data>
-    </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Diego Belzarena" id="0">
+    <edge source="Bayesian inference and role of astrocytes in amyloid-beta dynamics with modelling of Alzheimer's disease using clinical data" target="Hina Shaheen" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Seginus Mowlavi" id="0">
+    <edge source="Bayesian inference and role of astrocytes in amyloid-beta dynamics with modelling of Alzheimer's disease using clinical data" target="Roderick Melnik" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Aitor Artola" id="0">
+    <edge source="Bayesian inference and role of astrocytes in amyloid-beta dynamics with modelling of Alzheimer's disease using clinical data" target="The Alzheimer's Disease Neuroimaging Initiative" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Camilo Mariño" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Marina Gardella" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Ignacio Ramírez" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Antoine Tadros" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Roy He" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Natalia Bottaioli" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Boshra Rajaei" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Gregory Randall" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Jean-Michel Morel" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Problem:Document OCR, Post-OCR Correction, Information Extraction" id="0">
+    <edge source="Bayesian inference and role of astrocytes in amyloid-beta dynamics with modelling of Alzheimer's disease using clinical data" target="Problem:Therefore, in the present study, the inverse problem can be reformulated as a problem of Bayesian inference." id="0">
       <data key="d3">HAS_PROBLEM</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Method:OCR" id="0">
+    <edge source="Bayesian inference and role of astrocytes in amyloid-beta dynamics with modelling of Alzheimer's disease using clinical data" target="Method:ViT, Attention" id="0">
       <data key="d3">PROPOSES</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Dataset:ICDAR, NEU" id="0">
+    <edge source="Bayesian inference and role of astrocytes in amyloid-beta dynamics with modelling of Alzheimer's disease using clinical data" target="Dataset:NEU" id="0">
       <data key="d3">EVALUATED_ON</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="Metric:Accuracy, CER" id="0">
+    <edge source="Bayesian inference and role of astrocytes in amyloid-beta dynamics with modelling of Alzheimer's disease using clinical data" target="FutureWork:In this section, we will present the results obtained from the developed stochastic models presented in Section 2.2." id="0">
+      <data key="d3">FUTURE_WORK</data>
+    </edge>
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="Yechong Huang" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="Jiahang Xu" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="Yuncheng Zhou" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="Tong Tong" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="Xiahai Zhuang" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="the Alzheimer's Disease Neuroimaging Initiative" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="Problem:In addition, due to the limitation of GPU RAM and computation ability in VGG network, we cropped the region of interest to represent the whole image, which is centered in the center point of hippocampi and dilate from it." id="0">
+      <data key="d3">HAS_PROBLEM</data>
+    </edge>
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="Method:CNN" id="0">
+      <data key="d3">PROPOSES</data>
+    </edge>
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="Dataset:NEU" id="0">
+      <data key="d3">EVALUATED_ON</data>
+    </edge>
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="Metric:Accuracy" id="0">
       <data key="d3">REPORTS</data>
     </edge>
-    <edge source="Improving OCR using internal document redundancy" target="FutureWork:We shall, therefore, perform our experiments on datasets that satisfy the following criteria: – Domain-wise, the dataset should consist of images of printed (or typewritten) text, which are partitioned into sub-collections of pictures from the same or similar printing sources. – Granularity-wise, the data and their annotation should allow for a straightforward evaluation process." id="0">
+    <edge source="Diagnosis of Alzheimer's Disease via Multi-modality 3D Convolutional Neural Network" target="FutureWork:Regarding to the future work, first we only used two modalities, i.e., T1-MRI and FDG-PET, as input in this work." id="0">
       <data key="d3">FUTURE_WORK</data>
     </edge>
-    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Ethan C. Chau" id="0">
+    <edge source="High-dimensional regression over disease subgroups" target="Frank Dondelinger" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Noah A. Smith" id="0">
+    <edge source="High-dimensional regression over disease subgroups" target="Sach Mukherjee" id="0">
       <data key="d3">WRITTEN_BY</data>
     </edge>
-    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Problem:On the other hand, this also motivates additional investigation into remeRep." id="0">
+    <edge source="High-dimensional regression over disease subgroups" target="The Alzheimer's Disease Neuroimaging Initiative" id="0">
+      <data key="d3">WRITTEN_BY</data>
+    </edge>
+    <edge source="High-dimensional regression over disease subgroups" target="Problem:Our work is motivated by biomedical problems, where disease subtypes, for example, may diﬀer with respect to underlying regression models, but sample sizes at the subgroup-level may be limited." id="0">
       <data key="d3">HAS_PROBLEM</data>
     </edge>
-    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Method:Transformer, Attention, Language Model, BERT, RoBERTa, mBERT" id="0">
+    <edge source="High-dimensional regression over disease subgroups" target="Method:EAST" id="0">
       <data key="d3">PROPOSES</data>
     </edge>
-    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Dataset:IAM, NEU" id="0">
+    <edge source="High-dimensional regression over disease subgroups" target="Dataset:IAM, NEU" id="0">
       <data key="d3">EVALUATED_ON</data>
     </edge>
-    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="Improvement:outperforms baseline" id="0">
-      <data key="d3">IMPROVES</data>
-    </edge>
-    <edge source="Specializing Multilingual Language Models: An Empirical Study" target="FutureWork:The resulting ρ-values – 0.29 for NER, 0.56 for POS tagging, and 0.81 for UD parsing – suggest that this set of factors is meaningful for some tasks, though additional and more ﬁne-grained analysis in future work should give a more complete explanation." id="0">
+    <edge source="High-dimensional regression over disease subgroups" target="FutureWork:Instead, we will describe an optimization procedure based on a proximal gradient approximation derived in Chen et al. [2010]." id="0">
       <data key="d3">FUTURE_WORK</data>
-    </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Debabrata Paul" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Bidyut Baran Chaudhuri" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Problem:Multilingual OCR, Printed OCR" id="0">
-      <data key="d3">HAS_PROBLEM</data>
-    </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Method:CNN, LSTM, BLSTM, OCR" id="0">
-      <data key="d3">PROPOSES</data>
-    </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Dataset:ICDAR, NEU" id="0">
-      <data key="d3">EVALUATED_ON</data>
-    </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Metric:Accuracy" id="0">
-      <data key="d3">REPORTS</data>
-    </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="Improvement:outperforms baseline" id="0">
-      <data key="d3">IMPROVES</data>
-    </edge>
-    <edge source="A BLSTM Network for Printed Bengali OCR System with High Accuracy" target="FutureWork:Our future work is to use multi-layer (deep) architecture trained with bigger database and to make the system more versatile with respect to document quality." id="0">
-      <data key="d3">FUTURE_WORK</data>
-    </edge>
-    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Amrith Krishna" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Bodhisattwa Prasad Majumder" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Rajesh Shreedhar Bhat" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Pawan Goyal" id="0">
-      <data key="d3">WRITTEN_BY</data>
-    </edge>
-    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Problem:Multilingual OCR" id="0">
-      <data key="d3">HAS_PROBLEM</data>
-    </edge>
-    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Method:RNN, LSTM, BLSTM, OCR, Post-OCR Text Correction" id="0">
-      <data key="d3">PROPOSES</data>
-    </edge>
-    <edge source="Upcycle Your OCR: Reusing OCRs for Post-OCR Text Correction in Romanised Sanskrit" target="Dataset:ICDAR, IAM, NEU" id="0">
-      <data key="d3">EVALUATED_ON</data>
     </edge>
   </graph>
 </graphml>

@@ -1,8 +1,13 @@
 from typing import TypedDict, List, Dict, Any
 from core.models import Paper
-
+from models.literature_review import LiteratureReview
+from typing import Optional
+from models.research_proposal import ResearchProposal
+from models.research_report import ResearchReport
+from typing import Optional
 
 class ResearchState(TypedDict):
+
     topic: str
 
     papers: List[Paper]
@@ -21,4 +26,8 @@ class ResearchState(TypedDict):
 
     experiment_plan: Dict[str, Any]
 
-    proposal: str
+    proposal: Optional[ResearchProposal]
+
+    literature_review: LiteratureReview
+
+    report: Optional[ResearchReport]
