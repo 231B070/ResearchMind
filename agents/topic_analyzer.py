@@ -26,13 +26,18 @@ Schema:
 """
 
         response = client.chat.completions.create(
-            model="deepseek/deepseek-chat-v3-0324:free",
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ]
-        )
+    from config.settings import MODEL
+
+...
+
+response = client.chat.completions.create(
+    model=MODEL,
+    messages=[
+        {
+            "role": "user",
+            "content": prompt
+        }
+    ]
+)
 
         return json.loads(response.choices[0].message.content)
