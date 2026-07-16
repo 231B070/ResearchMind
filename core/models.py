@@ -1,3 +1,4 @@
+from models.paper_summary import PaperSummary
 from dataclasses import dataclass, field
 from typing import List, Dict
 
@@ -36,8 +37,6 @@ class Paper:
 
     source: str = "arXiv"
 
-    # NEW
-
     local_pdf: str = ""
 
     full_text: str = ""
@@ -45,3 +44,6 @@ class Paper:
     sections: Dict = field(default_factory=dict)
 
     claims: List[ResearchClaim] = field(default_factory=list)
+
+    paper_summary: PaperSummary | None = None
+    

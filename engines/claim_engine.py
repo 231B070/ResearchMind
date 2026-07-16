@@ -156,6 +156,7 @@ def extract_claims(paper: Paper) -> List[ResearchClaim]:
         if metric_entities
         else metric
     ),
+        
         baseline=_extract_from_sections(paper, ("Results", "Experiments", "Discussion"), _BASELINE_PATTERNS),
         
         results=results,

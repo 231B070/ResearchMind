@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>ResearchMind Dashboard</title>
+
+<style>
+
+body{
+    font-family:Arial;
+    background:#f4f7fb;
+    margin:40px;
+}
+
+h1{
+    text-align:center;
+}
+
+.cards{
+
+    display:flex;
+
+    gap:20px;
+
+    justify-content:center;
+
+    margin-bottom:40px;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:20px;
+
+    width:180px;
+
+    border-radius:10px;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+
+    text-align:center;
+
+}
+
+.card h2{
+
+    margin:0;
+
+    color:#2d5cff;
+
+}
+
+.section{
+
+    background:white;
+
+    padding:20px;
+
+    margin-top:25px;
+
+    border-radius:10px;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+
+}
+
+img{
+
+    width:100%;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th,td{
+
+    padding:10px;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>ResearchMind Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Papers</h3>
+
+<h2>5</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Nodes</h3>
+
+<h2>44</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Research Gaps</h3>
+
+<h2>3</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Ideas</h3>
+
+<h2>3</h2>
+
+</div>
+
+<div class="card">
+
+<h3>Contradictions</h3>
+
+<h2>0</h2>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Knowledge Graph Node Types</h2>
+
+<img src="node_types.png">
+
+</div>
+
+<div class="section">
+
+<h2>Research Ideas</h2>
+
+
+        <table>
+
+        <tr>
+
+        <th>Title</th>
+
+        <th>Method</th>
+
+        <th>Dataset</th>
+
+        <th>Confidence</th>
+
+        </tr>
+        
+
+            <tr>
+
+            <td>ViT for Low-Resource Iam Documents</td>
+
+            <td>ViT</td>
+
+            <td>IAM</td>
+
+            <td>0.90</td>
+
+            </tr>
+
+            
+
+            <tr>
+
+            <td>Hybrid ViT with Cnn</td>
+
+            <td>ViT</td>
+
+            <td>IAM</td>
+
+            <td>0.90</td>
+
+            </tr>
+
+            
+
+            <tr>
+
+            <td>ViT for Where Disease Subtypes</td>
+
+            <td>ViT</td>
+
+            <td>IAM</td>
+
+            <td>0.90</td>
+
+            </tr>
+
+            </table>
+
+</div>
+
+<div class="section">
+
+<h2>Research Gaps</h2>
+
+
+        <table>
+
+        <tr>
+
+        <th>Area</th>
+
+        <th>Gap</th>
+
+        <th>Confidence</th>
+
+        </tr>
+        
+
+            <tr>
+
+            <td>Datasets</td>
+
+            <td>Dataset 'Iam' appears only 2 time(s).</td>
+
+            <td>0.75</td>
+
+            </tr>
+
+            
+
+            <tr>
+
+            <td>Methods</td>
+
+            <td>Method 'Cnn' appears only 1 time(s).</td>
+
+            <td>0.70</td>
+
+            </tr>
+
+            
+
+            <tr>
+
+            <td>Problems</td>
+
+            <td>Problem 'Where Disease Subtypes' appears only 1 time(s).</td>
+
+            <td>0.68</td>
+
+            </tr>
+
+            </table>
+
+</div>
+
+</body>
+
+</html>

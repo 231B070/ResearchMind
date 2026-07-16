@@ -38,3 +38,11 @@ data/processed/
 build/
 dist/
 *.egg-info/
+
+
+
+# Generated Outputs
+output/
+
+# Downloaded PDFs
+data/papers/
